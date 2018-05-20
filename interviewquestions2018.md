@@ -15,7 +15,7 @@
 - Is your REST is a stateless or stateful? How can you make sure that?
 - How can you ensure that your REST services are secured. How can you achieve that?	
 
-# Thread questions
+#  Thread questions
 - What are the different ways of creating thread ? 
 - How thread interaction happens ?  wait, notify, and notifyAll
 - What is deadlock, how to prevent it
