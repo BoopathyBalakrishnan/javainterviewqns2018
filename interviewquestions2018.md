@@ -14,3 +14,29 @@
 - How does the conversion of request and response json to pojo and vice versa is happening in the REST controller? Who will do this? MediaType is not the correct answer.
 - Is your REST is a stateless or stateful? How can you make sure that?
 - How can you ensure that your REST services are secured. How can you achieve that?	
+
+# Thread questions
+- What are the different ways of creating thread ? 
+- How thread interaction happens ?  wait, notify, and notifyAll
+- What is deadlock, how to prevent it
+- How can we make variable thread safe without synchronize
+- What is semaphore and Re-entrant – in-depth knowledge
+- Scenario based questions on reentrant lock and synchronized - difference and which is better?
+- Main advantages of reentrant over synchronized
+- Lock levels
+- Cached thread pool and fixed thread pool – difference	
+	
+# Garbage collection
+- How does Garbage Collector works?
+- How many GC algorithms do you know?
+- What is permgern space?
+- Which object except string object are stored in perm gen space?
+- What are types of references in java. What is strong and weak references, how does garbage collection work. 
+- Where to use weak reference – scenario based example?
+- References and thread safety
+- Is it advisable to force GC, what are the implications etc.
+-  Heap memory and off heap memory management
+- Finalize method – relation to GC and clean up – When it is invoked – who determines
+- Performance:
+ a)	CPU usage 100% - how to fix it
+ b)	How to debug CPU full scenario	
